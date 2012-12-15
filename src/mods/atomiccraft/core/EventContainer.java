@@ -1,4 +1,4 @@
-package mods.mikecraft.core;
+package mods.atomiccraft.core;
 
 import net.minecraftforge.event.ForgeSubscribe;
 import net.minecraftforge.event.entity.living.LivingFallEvent;

@@ -1,4 +1,4 @@
-package mods.mikecraft.blocks;
+package mods.atomiccraft.blocks;
 
 import net.minecraft.src.ItemFood;
 
@@ -10,7 +10,7 @@ public class ItemCheese extends ItemFood {
 	
 	@Override
 	public String getTextureFile(){
-		return "/mikecraft/items.png";
+		return "/atomiccraft/items.png";
 	}
 
 }

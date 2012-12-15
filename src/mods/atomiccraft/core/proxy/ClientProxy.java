@@ -1,6 +1,6 @@
-package mods.mikecraft.core.proxy;
+package mods.atomiccraft.core.proxy;
 
-import mods.mikecraft.core.LangNames;
+import mods.atomiccraft.core.LangNames;
 import net.minecraftforge.client.MinecraftForgeClient;
 
 public class ClientProxy extends CommonProxy {

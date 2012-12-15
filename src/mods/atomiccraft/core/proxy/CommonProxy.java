@@ -1,4 +1,4 @@
-package mods.mikecraft.core.proxy;
+package mods.atomiccraft.core.proxy;
 
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.src.EntityPlayer;

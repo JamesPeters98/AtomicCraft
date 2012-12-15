@@ -1,4 +1,4 @@
-package mods.mikecraft.blocks;
+package mods.atomiccraft.blocks;
 
 import java.util.Random;
 
@@ -6,7 +6,6 @@ import net.minecraft.src.Block;
 import net.minecraft.src.BlockGlowStone;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Material;
-import mods.mikecraft.core.Mikecraft;
 
 public class BlockLantern extends BlockGlowStone  {
 
@@ -16,7 +15,7 @@ public class BlockLantern extends BlockGlowStone  {
 	
 	@Override
 	public String getTextureFile(){
-		return "/mikecraft/blocks.png";
+		return "/atomiccraft/blocks.png";
 	}
 	
 	@Override
