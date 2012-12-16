@@ -1,4 +1,4 @@
-##AtomicCraft - Adding Atomic Spliters, Cheese, and lots of other things to modded Minecraft!
+##AtomicCraft - Splitting things into other things... with science!
 
 ###Contributing
   If you would like to fix bugs or fix a feature, feel free to submit a pull request. If you are 
