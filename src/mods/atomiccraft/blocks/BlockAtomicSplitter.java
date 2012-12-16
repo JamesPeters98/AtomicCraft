@@ -4,6 +4,10 @@ import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.EntityLiving;
+import net.minecraft.util.MathHelper;
+import net.minecraft.world.World;
+import net.minecraftforge.common.ForgeDirection;
 
 public class BlockAtomicSplitter extends Block  {
 
@@ -55,7 +59,6 @@ public class BlockAtomicSplitter extends Block  {
 		world.setBlockMetadata(x, y, z, side);
 	}
 	
-	@Override
 	public ForgeDirection getOrientation(World world, int x, int y, int z){
 		return ForgeDirection.getOrientation(world.getBlockMetadata(x, y, z));
 	}

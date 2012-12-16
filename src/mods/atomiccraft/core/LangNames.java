@@ -5,6 +5,7 @@ import mods.atomiccraft.core.GameReg;
 public class LangNames {
 
 	public static void initNames(){
+		GameReg.registerTab("atomicTab", "AtomicCraft");
 		GameReg.registerName(AtomicCraft.coinGold, "Gold Coin");
 		GameReg.registerName(AtomicCraft.coinIron, "Iron Coin");
 		GameReg.registerName(AtomicCraft.coinCopper, "Copper Coin");
@@ -14,7 +15,6 @@ public class LangNames {
 		
 		GameReg.registerName(AtomicCraft.foodCheese, "Slice of Cheese");
 		
-		GameReg.registerName(AtomicCraft.blockLantern, "Glowstone Lantern");
 		GameReg.registerName(AtomicCraft.blockAtomicSplitter, "Atomic Splitter");
 	}
 	
