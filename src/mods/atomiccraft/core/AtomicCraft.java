@@ -79,7 +79,7 @@ public class AtomicCraft {
 		GameReg.addSmelting(coinGold.shiftedIndex, new ItemStack(Item.goldNugget, 1));
 		GameReg.addSmelting(coinIron.shiftedIndex, new ItemStack(nuggetIron, 1));
 		GameReg.addSmelting(coinCopper.shiftedIndex, new ItemStack(nuggetCopper, 1));
-		GameReg.addSmelting(ItemBucketMilk.bucketMilk.shiftedIndex, new ItemStack(this.foodCheese, Item.bucket.shiftedIndex));
+		GameReg.addSmelting(ItemBucketMilk.bucketMilk.shiftedIndex, new ItemStack(this.foodCheese, 1));
 		GameReg.addRecipe(new ItemStack(Item.ingotIron, 1), new Object[]{
 				"XXX", "XXX", "XXX", 'X', AtomicCraft.nuggetIron
 		});
