@@ -1,20 +1,21 @@
 package mods.atomiccraft.core;
 
-import mods.atomiccraft.GameReg;
+import mods.atomiccraft.core.GameReg;
 
 public class LangNames {
 
 	public static void initNames(){
-		GameReg.registerName(Mikecraft.coinGold, "Gold Coin");
-		GameReg.registerName(Mikecraft.coinIron, "Iron Coin");
-		GameReg.registerName(Mikecraft.coinCopper, "Copper Coin");
+		GameReg.registerName(AtomicCraft.coinGold, "Gold Coin");
+		GameReg.registerName(AtomicCraft.coinIron, "Iron Coin");
+		GameReg.registerName(AtomicCraft.coinCopper, "Copper Coin");
 		
-		GameReg.registerName(Mikecraft.nuggetIron, "Iron Nugget");
-		GameReg.registerName(Mikecraft.nuggetCopper, "Copper Nugget");
+		GameReg.registerName(AtomicCraft.nuggetIron, "Iron Nugget");
+		GameReg.registerName(AtomicCraft.nuggetCopper, "Copper Nugget");
 		
-		GameReg.registerName(Mikecraft.foodCheese, "Slice of Cheese");
+		GameReg.registerName(AtomicCraft.foodCheese, "Slice of Cheese");
 		
-		GameReg.registerName(Mikecraft.blockLantern, "Glowstone Lantern");
+		GameReg.registerName(AtomicCraft.blockLantern, "Glowstone Lantern");
+		GameReg.registerName(AtomicCraft.blockAtomicSplitter, "Atomic Splitter");
 	}
 	
 }

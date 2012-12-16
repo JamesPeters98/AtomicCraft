@@ -1,6 +1,6 @@
 package mods.atomiccraft.blocks;
 
-import net.minecraft.src.Item;
+import net.minecraft.item.Item;
 
 public class BaseItem extends Item {
 

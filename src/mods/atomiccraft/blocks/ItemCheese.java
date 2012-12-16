@@ -1,6 +1,6 @@
 package mods.atomiccraft.blocks;
 
-import net.minecraft.src.ItemFood;
+import net.minecraft.item.ItemFood;
 
 public class ItemCheese extends ItemFood {
 
