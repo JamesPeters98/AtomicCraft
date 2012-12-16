@@ -1,0 +1,17 @@
+[
+{
+  "modid": "AtomicCraft",
+  "name": "AtomicCraft",
+  "description": "Changing things into other things... with science!",
+  "version": "0.1",
+  "mcversion": "1.4.5",
+  "logoFile": "/atomiccraft.png",
+  "url": "https://github.com/TrainerGuy22/AtomicCraft",
+  "updateUrl": "",
+  "authors": ["TrainerGuy22", "Others"],
+  "credits": "Made by TrainerGuy22",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
