@@ -7,10 +7,12 @@ import mods.atomiccraft.blocks.BlockAtomicSplitter;
 import mods.atomiccraft.blocks.ItemCheese;
 import mods.atomiccraft.core.GameReg;
 import mods.atomiccraft.core.proxy.CommonProxy;
+import mods.atomiccraft.tileentities.TileEntitySplitter;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBucket;
 import net.minecraft.item.ItemBucketMilk;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.Configuration;
@@ -75,11 +77,12 @@ public class AtomicCraft {
 		
 		addItems();
 		GameReg.registerBlock(blockAtomicSplitter);
+		GameReg.registerTileEntity(TileEntitySplitter.class, "AtomicSplitter");
 		proxy.registerClientTextures();
 		GameReg.addSmelting(coinGold.shiftedIndex, new ItemStack(Item.goldNugget, 1));
 		GameReg.addSmelting(coinIron.shiftedIndex, new ItemStack(nuggetIron, 1));
 		GameReg.addSmelting(coinCopper.shiftedIndex, new ItemStack(nuggetCopper, 1));
-		GameReg.addSmelting(ItemBucketMilk.bucketMilk.shiftedIndex, new ItemStack(this.foodCheese, Item.bucket.shiftedIndex));
+		GameReg.addSmelting(ItemBucketMilk.bucketMilk.shiftedIndex, new ItemStack(this.foodCheese, 1));
 		GameReg.addRecipe(new ItemStack(Item.ingotIron, 1), new Object[]{
 				"XXX", "XXX", "XXX", 'X', AtomicCraft.nuggetIron
 		});
